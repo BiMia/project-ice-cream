@@ -17,8 +17,14 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
 .container {
-    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .link {
@@ -96,6 +102,13 @@ ul {
     background:#FFB8CA;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
 .section-title {
     color: #FFF;
     font-family: var(--header-font-family);
@@ -116,6 +129,10 @@ ul {
     letter-spacing: 2.32px;
 }
 
+.hero-buttons {
+    display: flex;
+}
+
 .first-section-buttons {
     width: 107px;
     height: 40px;
@@ -128,6 +145,7 @@ ul {
     font-weight: 400;
     cursor: pointer;
     margin-top: 24px;
+    margin-left: 16px;
 }
 
 .button-two {
@@ -172,12 +190,8 @@ ul {
     border-radius: 50%;
 }
 
-.circle {
-    height: 534px;
-    width: 534px;
-    background-color: #FFA5BA;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 557px;
-    margin-top: 54px;
+.hero-left-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }

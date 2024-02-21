@@ -1,0 +1,122 @@
+.products-first-title {
+  color: #FFA5BA;
+  text-align: center;
+  font-family: var(--header-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-top: 61px;
+}
+
+.products-second-title {
+  color: #D41443;
+  text-align: center;
+  font-family: var(--header-font-family);
+  font-size: 58px;
+  font-weight: 400;
+  letter-spacing: 3.48px;
+  text-transform: uppercase;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 120px;
+  left: 20px;
+}
+
+.milkshake-image {
+  width: 368px;
+  height: 394px;
+  position: relative;
+  left: 35px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.card-icecream {
+  width: 368px;
+  height: 535px;
+  border-radius: 24px;
+  background: #FFB8CA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-icecream:hover, .card-icecream:focus {
+  background: #FFB8CA;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.icecream-image {
+  width: 368px;
+  height: 394px;
+  position: relative;
+  right: 30px;
+}
+
+.card-icecoffee {
+  width: 368px;
+  height: 535px;
+  border-radius: 24px;
+  background: #F0D1A5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-milkshake {
+  width: 368px;
+  height: 535px;
+  border-radius: 24px;
+  background: #C2E297;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-titles {
+  color: var(--light-color);
+  text-align: center;
+  font-family: var(--header-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.card-paragraph {
+  width: 304px;
+  color: var(--light-color);
+  text-align: center;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28.16px;
+  letter-spacing: 0.64px;
+  margin-top: 32px;
+}
+
+.card-svg {
+  background-color: var(--light-color);
+  fill: var(--light-color);
+  border-radius: 50px;
+  margin-top: 32px;
+}
+
+.arrow {
+  fill: #D41443;
+  position: relative;
+  bottom: 30px;
+  left: 1px;
+}/*# sourceMappingURL=products.css.map */

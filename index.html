@@ -14,7 +14,8 @@
     <link
     href=https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css
     rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./hero.css" />
+    <link rel="stylesheet" href="./products.css" />
   </head>
   <body>
     <!--Hero section-->
@@ -24,6 +25,19 @@
           <svg class="header-svg" width="199" height="50">
             <use href="./images/icons.svg#logo" />
           </svg>
+          <buttton
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="hamburger-svg" width="32" height="22">
+              <use
+                href="./images/icons.svg#burger-menu"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </buttton>
           <ul class="header-list">
             <li>
               <a class="link header-link header-link-active" href=".">Home</a>
@@ -50,44 +64,131 @@
         </nav>
       </div>
       <section class="first-section">
-        <div class="container">
-          <h1 class="section-title">
-            ice cream made with<span class="second-part">passion</span>
-          </h1>
-          <button class="first-section-buttons button-active" type="button">
-            Products
-          </button>
-          <button class="first-section-buttons button-two" type="button">
-            How it&apos;s made
-          </button>
-          <span class="circle"></span>
-          <div class="hero-description">
-            <ul class="description-list">
-              <li class="description-image">
-                <img
-                  class="hero-image"
-                  src="./images/hero-img1.png"
-                  width="
+        <div class="hero-container">
+          <div class="hero-left-container">
+            <h1 class="section-title">
+              ice cream made with<span class="second-part">passion</span>
+            </h1>
+            <div class="hero-buttons">
+              <button class="first-section-buttons button-active" type="button">
+                Products
+              </button>
+              <button class="first-section-buttons button-two" type="button">
+                How it&apos;s made
+              </button>
+            </div>
+            <div class="hero-description">
+              <ul class="description-list">
+                <li class="description-image">
+                  <img
+                    class="hero-image"
+                    src="./images/hero-img1.png"
+                    width="
             213"
-                />
-              </li>
-              <li>
-                <p class="hero-paragraph">
-                  Indulge in a scoop of ice cream made with passion and treat
-                  your taste buds to an unforgettable experience!
-                </p>
-                <img
-                  class="paragraph-image"
-                  src="./images/arrow-right.jpg"
-                  alt="arrow"
-                  width="26"
-                />
-              </li>
-            </ul>
+                  />
+                </li>
+                <li>
+                  <p class="hero-paragraph">
+                    Indulge in a scoop of ice cream made with passion and treat
+                    your taste buds to an unforgettable experience!
+                  </p>
+                  <img
+                    class="paragraph-image"
+                    src="./images/arrow-right.jpg"
+                    alt="arrow"
+                    width="26"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="hero-right-container">
+              <span class="hero-number">16</span>
+              <span class="hero-word">cafes</span>
+              <div>
+                <div class="white-circle"></div>
+                <span class="hero-number">23</span>
+                <span class="hero-word">food trucks</span>
+              </div>
+              <span class="circle"></span>
+            </div>
           </div>
         </div>
       </section>
     </header>
-    <main></main>
+    <main>
+      <section class="second-section">
+        <div class="container">
+          <h2 class="products-first-title">100% natural</h2>
+          <h1 class="products-second-title">Products</h1>
+          <div class="products">
+            <img
+              class="icecream-image products-images"
+              src="./images/products-img1.png"
+              alt="icecream"
+            />
+            <img
+              class="icecoffee-image"
+              src="./images/products-img2.png"
+              alt="icecoffe"
+            />
+            <img
+              class="milkshake-image"
+              src="./images/products-img3.png"
+              alt="milkshake"
+            />
+          </div>
+          <ul class="cards">
+            <li class="card-icecream">
+              <h3 class="cards-titles">ice cream</h3>
+              <svg width="25" height="6">
+                <use href="./images/icons.svg#white-dots" />
+              </svg>
+              <p class="card-paragraph">
+                Indulge in our rich and creamy ice cream, handcrafted with
+                all-natural ingredients and available in a variety of flavors.
+              </p>
+              <svg class="card-svg" width="40" height="40">
+                <use href="./images/icons.svg#circle" />
+              </svg>
+              <svg class="arrow" widht="20" height="20">
+                <use href="./images/icons.svg#arrow-right" />
+              </svg>
+            </li>
+            <li class="card-icecoffee">
+              <h3 class="cards-titles">ice coffee</h3>
+              <svg width="25" height="6">
+                <use href="./images/icons.svg#white-dots" />
+              </svg>
+              <p class="card-paragraph">
+                Refresh and energize with our perfectly brewed iced coffee, made
+                with high-quality beans and served over ice.
+              </p>
+              <svg class="card-svg" width="40" height="40">
+                <use href="./images/icons.svg#circle" />
+              </svg>
+              <svg class="arrow" widht="20" height="20">
+                <use href="./images/icons.svg#arrow-right" />
+              </svg>
+            </li>
+            <li class="card-milkshake">
+              <h3 class="cards-titles">milkshake</h3>
+              <svg width="25" height="6">
+                <use href="./images/icons.svg#white-dots" />
+              </svg>
+              <p class="card-paragraph">
+                Satisfy your sweet tooth with our thick, made with premium ice
+                cream, topped with whipped cream and your favorite toppings.
+              </p>
+              <svg class="card-svg" width="40" height="40">
+                <use href="./images/icons.svg#circle" />
+              </svg>
+              <svg class="arrow" widht="20" height="20">
+                <use href="./images/icons.svg#arrow-right" />
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
